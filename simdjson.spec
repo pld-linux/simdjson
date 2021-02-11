@@ -10,6 +10,7 @@ Source0:	https://github.com/simdjson/simdjson/archive/v%{version}/%{name}-%{vers
 URL:		https://simdjson.org
 BuildRequires:	cmake >= 3.9
 BuildRequires:	libstdc++-devel >= 6:5
+BuildRequires:	rpmbuild(macros) >= 1.605
 ExclusiveArch:	%{x8664} aarch64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
