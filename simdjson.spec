@@ -32,13 +32,13 @@ Header files for simdjson library.
 %setup -q
 
 %build
-%cmake \
+%cmake -B build \
 	-DSIMDJSON_JUST_LIBRARY=ON
-%{__make}
+%{__make} -C build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__make} install \
+%{__make} -C build install \
 	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
