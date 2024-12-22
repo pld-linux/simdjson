@@ -24,6 +24,7 @@ possible while doing full validation (including character encoding).
 Summary:	Header files for simdjson library
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
+Requires:	libstdc++-devel >= 6:5
 
 %description devel
 Header files for simdjson library.
