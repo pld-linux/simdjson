@@ -1,12 +1,12 @@
 Summary:	Parsing gigabytes of JSON per second
 Name:		simdjson
-Version:	4.0.0
+Version:	4.0.4
 Release:	1
 License:	Apache v2.0 or MIT
 Group:		Libraries
 #Source0Download: https://github.com/simdjson/simdjson/releases
 Source0:	https://github.com/simdjson/simdjson/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	5d494ebd3db6708c60bb49bce13defc5
+# Source0-md5:	fc78fa37415f3c01243d715dea631d58
 URL:		https://simdjson.org
 BuildRequires:	cmake >= 3.14
 BuildRequires:	libstdc++-devel >= 6:5
